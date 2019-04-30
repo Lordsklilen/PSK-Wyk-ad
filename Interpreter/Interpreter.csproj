@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context.cs" />
+    <Compile Include="Expression.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TerminalExpressions\HundredExpression.cs" />
+    <Compile Include="TerminalExpressions\OneExpression.cs" />
+    <Compile Include="TerminalExpressions\TenExpression.cs" />
+    <Compile Include="TerminalExpressions\ThousandExpression.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
