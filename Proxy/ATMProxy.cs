@@ -14,7 +14,7 @@ namespace Proxy
         public bool Withdraw(Person p, int amount)
         {
             if (p.Name() == "Tom" || p.Name() == "Harry" || p.Name() == "Bubba")
-                return realThing.Withdraw(amount);
+                return realThing.Withdraw(p,amount);
             else
                 return false;
         }
