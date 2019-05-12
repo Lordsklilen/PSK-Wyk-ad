@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Proxy
 {
-    public class ATM
+    public class ATM : IATM
     {
         int balance;
         public ATM(){
             balance = 500;
         }
 
-        public bool Withdraw(int amount)
+        public bool Withdraw(Person p, int amount)
         {
             if (amount > balance)
                 return false;

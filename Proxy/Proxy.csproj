@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IATM.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="PettyCash.cs" />
-    <Compile Include="PettyCashProtected.cs" />
+    <Compile Include="ATMProxy.cs" />
+    <Compile Include="ATM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
