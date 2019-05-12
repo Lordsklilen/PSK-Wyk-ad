@@ -11,7 +11,7 @@ namespace Interpreter
     /// </summary>
     public class Context
     {
-        private string _input;
+        public string _input;
         private int _output;
 
         // Constructor
