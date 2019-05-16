@@ -9,7 +9,7 @@ namespace Proxy
     public class Person
     {
         string nameString;
-        static List<string> list = new List<string>() { "Tom", "Dick", "Harry", "Bubba" };
+        static List<string> list = new List<string>() { "Michał", "Adam", "Bartek", "Weronika" };
         static int next;
 
         public Person(){

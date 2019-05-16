@@ -10,16 +10,11 @@ namespace Proxy
     {
         static void Main()
         {
-
-
             ATMProxy pc = new ATMProxy();
             // Initializing Clients
             List<Person> workers = new List<Person>() { new Person(), new Person(), new Person(), new Person()};
 
-
-
             for (int i = 0, amount = 100; i < 4; i++, amount += 100)
-
 
                 //trying to withdraw money using proxy 
                 if (!pc.Withdraw(workers[i], amount))
